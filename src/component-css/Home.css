@@ -1,0 +1,14 @@
+.homepage {
+  text-align: center;
+  background-image: url('../images/home-background.jpg');
+  background-size: 60% 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner-info {
+  font-size: 70px;
+  font-weight: 600;
+  padding: 100px 0;
+  font-family: 'Permanent Marker', cursive;
+}

@@ -1,0 +1,29 @@
+.events-page {
+  margin: 0;
+  padding: 0;
+}
+
+.events-row {
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.events-heading {
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 50px;
+}
+
+.row-1 {
+  display: flex;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.events-row-imgs {
+  width: 20rem;
+  height: 30rem;
+  margin-left: 15px;
+  border-radius: 10px;
+}

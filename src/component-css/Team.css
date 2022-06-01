@@ -1,0 +1,82 @@
+.team-page {
+  margin: 0;
+}
+
+.team-container {
+  margin: 40px 100px;
+  align-items: center;
+  text-align: left;
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.team-left {
+  flex-basis: 47%;
+}
+
+.team-right {
+  flex-basis: 40%;
+}
+
+.team-title {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.team-description {
+  margin-top: 0;
+}
+
+.team-img {
+  width: 500px;
+  height: 350px;
+  border-radius: 50px;
+}
+
+.members-btn {
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: 0.75rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  text-decoration: none #6b7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: 0.2s;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+.members-btn:hover {
+  background-color: #374151;
+}
+
+.members-btn:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .members-btn {
+    padding: 0.75rem 1.5rem;
+  }
+}
